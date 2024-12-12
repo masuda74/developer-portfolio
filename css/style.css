@@ -1,0 +1,55 @@
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+
+.container {
+    background-image: url("../public/developer.png"),url("../public/header_bg.png");
+    background-position: left top,right bottom;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.navbar-link {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+   
+}
+.navbar-link li {
+    margin-right: 50px;
+}
+.navbar-link li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.primary-btn {
+    padding: 10px 20px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar-title {
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+#sub-title {
+    color: orangered;
+}
+.banner {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
